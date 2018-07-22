@@ -41,5 +41,8 @@ Or specifying elementId in original file:
 >java -jar web-crawler-VERSION-jar-with-dependencies.jar <input_origin_file_path> <input_other_sample_file_path> <element_id_in_original_file>
 
 
+**Comparison:**
+
+Comparison output for sample pages can be found in folder ./comparison/
 
 

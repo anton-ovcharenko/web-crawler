@@ -1,0 +1,48 @@
+﻿d:\Programming\Projects\Java_IDEA\web-crawler>java -jar ./bin/web-crawler-1.0-SN
+APSHOT-jar-with-dependencies.jar ./res/sample-0-origin.html ./res/sample-1-evil-
+gemini.html
+2018-07-23 01:08:17 INFO  InputParameters:47 - Input parameters after parsing: I
+nputParameters(originalFilePath=./res/sample-0-origin.html, diffFilePath=./res/s
+ample-1-evil-gemini.html, elementId=make-everything-ok-button)
+
+Path to similar element: [html > body > div > div > div[2] > div[0] > div > div[
+1] > a[1]]
+
+Similar element: [<a class="btn btn-success" href="#check-and-ok" title="Make-Bu
+tton" rel="done" onclick="javascript:window.okDone(); return false;"> Make every
+thing OK </a>]
+
+Contribution details: [
+Attribute: [id]
+        original element value: [make-everything-ok-button],
+        similar element value: [],
+        contribution: 0
+Attribute: [class]
+        original element value: [btn btn-success],
+        similar element value: [btn btn-success],
+        contribution: 2
+Attribute: [href]
+        original element value: [#ok],
+        similar element value: [#check-and-ok],
+        contribution: 0
+Attribute: [title]
+        original element value: [Make-Button],
+        similar element value: [Make-Button],
+        contribution: 1
+Attribute: [rel]
+        original element value: [next],
+        similar element value: [done],
+        contribution: 0
+Attribute: [onclick]
+        original element value: [javascript:window.okDone(); return false;],
+        similar element value: [javascript:window.okDone(); return false;],
+        contribution: 1
+Function: [oaa.webcrowler.Main$$Lambda$4/558187323@40e6dfe1]
+        original element value: [a],
+        similar element value: [a],
+        contribution: 3
+Function: [oaa.webcrowler.Main$$Lambda$5/680576081@1b083826]
+        original element value: [Make everything OK],
+        similar element value: [Make everything OK],
+        contribution: 3
+Total similarity index: 10]
